@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup as soup
 import webhoseio # news API
 from pinance import Pinance # Stock API
-webhoseio.config(token="8d786df0-7885-4818-a4d2-0562b9507f1f")
+webhoseio.config(token="XXXXXXXX-XXXX-XXXX-XXXXXXXXXXX")
 keywords = ['$','clinical','trial','phase','investment','position','price','buy','sell']
 # my_url = 'http://topforeignstocks.com/stock-lists/the-complete-list-of-biotech-stocks-trading-on-nasdaq/' # List of biotech companies (outdated source)
 # uClient = requests.get(my_url) #downloads webpage
